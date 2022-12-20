@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="foodi.jpg">
+    <script src="https://kit.fontawesome.com/93ad3a9d13.js" crossorigin="anonymous"></script>
+    <title> the foodie adda | find your food from anywhere</title>
+</head>
+<body class="bg-gray-100" >
+  <div class="flex justify-center items-center flex-wrap ">
+  <img  class=" w-[80px] lg:w-[100px] h-[100px] mt-5 hover:scale-105
+  " src="logo2.png" alt="img"/>
+    <div class="flex justify-center  font-sans">  
+   <div  id="box-1" class=" w-[400px] md:w-[600px] flex flex-col  items-center pt-4 pb-5 md:py-10 px-3 mt-5 mb-3">
+     <h1 class="font-bold text-xl md:text-3xl">Find Meals For Your Ingredients</h1>
+     <p class="font-semibold md:text-lg">Wake up it's food o'clock</p>
+     <div class="p-7">
+     <input id="inp" class="px-2 py-1 border-2 rounded-lg md:w-[300px] lg-w-[500px] lg:py-2 lg:px-3 border-orange-400 mr-0" type="text" placeholder="Search your ingredients"/>
+     <button id="btn" class="bg-orange-500 md:w-[40px] lg:w-[47px] hover:bg-orange-600 lg:py-2 lg:px-3 active:bg-orange-500 rounded-lg px-2 py-1   border-2 border-orange-400 ml-0"><i class=" fa-solid fa-magnifying-glass"></i></button>
+    </div>
+   </div>
+  </div>
+</div>
+<div class="text-center md:mb-10  mb-5">
+<span class="font-bold text-lg mx-3 md:text-2xl font-sans">your search results</span>
+</div>
+<div class="flex justify-center md:w-[600px]  lg:w-[90vw] md:mx-auto ">
+   <div id="box-2" class="flex  flex-col md:flex-row  md:flex-wrap md:justify-center items-center">
+      <div id="card" class="rounded-md border-1 hover:scale-105 bg-white shadow-lg md:shadow-xl text-center m-4">
+        <img class="w-[250px] max-w-[250px] cursor-pointer rounded-t-md" src="paneer-tikka.jpg" alt="img">
+        <p class="font-sans font-bold text-lg p-2">paneer-tikka</p>
+        <button class="bg-orange-500 px-3 py-1 hover:bg-orange-600 active:bg-orange-500  border-2 border-orange-400 mb-4 font-semibold rounded-lg text-white">Get-recipe</button>
+      </div>
+      <div id="card" class="rounded-md border-1 hover:scale-105 md:shadow-xl bg-white shadow-lg text-center m-2">
+        <img class="w-[250px] max-w-[250px] cursor-pointer rounded-t-md" src="Dal-Makhani.jpg" alt="img">
+        <p class="font-sans font-bold text-lg p-2">Daal Makhani</p>
+        <button class="bg-orange-500 px-3 py-1 hover:bg-orange-600 active:bg-orange-500  border-2 border-orange-400 mb-4 font-semibold rounded-lg text-white">Get-recipe</button>
+      </div>
+      <div id="card" class="rounded-md border-1 hover:scale-105 md:shadow-xl bg-white shadow-lg text-center m-2">
+        <img class="w-[250px] max-w-[250px] cursor-pointer rounded-t-md" src="rajma.jpg" alt="img">
+        <p class="font-sans font-bold text-lg p-2">kababi-Rajma</p>
+        <button class="bg-orange-500 px-3 py-1 hover:bg-orange-600 active:bg-orange-500  border-2 border-orange-400 mb-4 font-semibold rounded-lg text-white">Get-recipe</button>
+      </div>
+      <div id="card" class="rounded-md border-1 hover:scale-105  md:shadow-xl bg-white shadow-lg text-center m-2">
+        <img class="w-[250px] max-w-[250px] cursor-pointer rounded-t-md" src="burger.jpg" alt="img">
+        <p class="font-sans font-bold text-lg p-2"> Hot-Burger</p>
+        <button class="bg-orange-500 px-3 py-1 hover:bg-orange-600 active:bg-orange-500  border-2 border-orange-400 mb-4 font-semibold rounded-lg text-white">Get-recipe</button>
+      </div>
+   </div>
+</div> 
+
+<footer id="footer" class="text-center flex flex-col space-y-3 m-5 pt-5 md:text-lg">
+  <hr>
+  <div>
+  <i class=" hover:scale-125 fa-brands fa-twitter"></i>
+
+<i class="hover:scale-125 ml-2 fa-brands fa-facebook-f"></i>
+
+<i class="hover:scale-125 ml-2 fa-brands fa-instagram"></i>
+                                    
+<i class="hover:scale-125 ml-2 fa-sharp fa-solid fa-envelope"></i>
+
+</div>
+<p class="font-sans font-semibold">© Copyright the foodie adda</p>
+
+<a class=" ft-link" href="#box-1"><p class="font-sans font-semibold hover:font-bold">Back-To-Top</p></a>
+</footer>
+<script type="module" src="/script.js"></script>
+</body>
+</html>
